@@ -1,0 +1,34 @@
+{
+    "name": "onejames/Rosie",
+    "description": "Ultralight Php Framework",
+    "version": "0.0.2",
+    "dist": {
+        "type": "git",
+        "url": "git@github.com:onejames/Rosie.git"
+    },
+
+    "config": {
+
+    },
+
+    "require": {
+        "php": ">=5.4",
+        "erusev/parsedown": "^1.6"
+    },
+
+    "require-dev": {
+
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Rosie\\": [
+                "src/"
+            ]
+        }
+    },
+
+    "extra": {
+
+    }
+}
